@@ -1,0 +1,29 @@
+#header{
+    border-bottom: #1c7430 solid 2px;
+}
+#result{
+    border: #1e7e34 solid 2px;
+}
+
+table {
+    width: 90%;
+    border: #1e7e34 solid 2px;
+}
+td {
+    width: 33.33%;
+    position: relative;
+}
+td:after {
+    content: '';
+    display: block;
+    margin-top: 50%;
+}
+td .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+}
